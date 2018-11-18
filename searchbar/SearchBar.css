@@ -1,0 +1,22 @@
+.search_bar {
+    display: block;
+    margin: 2em auto 1em;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 14px;
+}
+
+.search_bar:active,
+.search_bar:focus {
+    outline-color: #acacac;
+}
+
+@media screen and (min-width: 576px) {
+
+    .search_bar {
+        width: 60%;
+        font-size: 16px;
+    }
+}

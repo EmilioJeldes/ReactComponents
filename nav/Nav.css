@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.menu_container {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu_item {
+    list-style: none;
+}
+
+.menu_link {
+    cursor: pointer;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    display: inline;
+    margin: 0;
+    outline: 0;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.menu_link:hover {
+    opacity: .5;
+    background-color: rgba(0, 0, 0, .5);
+}
